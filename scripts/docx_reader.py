@@ -21,7 +21,7 @@ class Paragraph:
     runs: list[Run]
 
 
-def read_docx(path: Path) -> list[Paragraph]:
+def read_paragraphs(path: Path) -> list[Paragraph]:
     with ZipFile(path) as archive:
         document_xml = archive.read("word/document.xml")
 
@@ -34,10 +34,11 @@ def read_docx(path: Path) -> list[Paragraph]:
     for number, paragraph_element in enumerate(body.findall(f"{W}p"), start=1):
         runs = [
             _read_run(run_element)
-            for run_element in paragraph_element.findall(f"{W}r")
+            for run_element in paragraph_element.findall(f".//{W}r")
         ]
-        text = "".join(run.text for run in runs)
-        if text.strip():
+        runs = [run for run in runs if run.text]
+        text = "".join(run.text for run in runs).strip()
+        if text:
             paragraphs.append(Paragraph(number=number, text=text, runs=runs))
 
     return paragraphs
@@ -45,7 +46,7 @@ def read_docx(path: Path) -> list[Paragraph]:
 
 def _read_run(run_element: ElementTree.Element) -> Run:
     text = "".join(
-        text_element.text or "" for text_element in run_element.findall(f"{W}t")
+        text_element.text or "" for text_element in run_element.findall(f".//{W}t")
     )
     color_element = run_element.find(f"{W}rPr/{W}color")
     color = color_element.get(f"{W}val") if color_element is not None else None

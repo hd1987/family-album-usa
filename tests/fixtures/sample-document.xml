@@ -3,7 +3,7 @@
   <w:body>
     <w:p>
       <w:r>
-        <w:t>Episode 1 - A Family Album</w:t>
+        <w:t xml:space="preserve">  Episode 1 - A Family Album  </w:t>
       </w:r>
     </w:p>
     <w:p>
@@ -18,16 +18,19 @@
         </w:rPr>
         <w:t>Richard：</w:t>
       </w:r>
+      <w:r/>
       <w:r>
-        <w:t>Hello, I'm Richard.</w:t>
+        <w:t xml:space="preserve"> Excuse me.</w:t>
       </w:r>
-      <w:r>
-        <w:t>你好，我是理查德。</w:t>
-      </w:r>
+      <w:hyperlink>
+        <w:r>
+          <w:t>对不起。</w:t>
+        </w:r>
+      </w:hyperlink>
     </w:p>
     <w:p>
       <w:r>
-        <w:t>Act 1</w:t>
+        <w:t xml:space="preserve"> Act 1 </w:t>
       </w:r>
     </w:p>
     <w:sectPr/>
