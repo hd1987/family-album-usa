@@ -83,13 +83,18 @@ docs/
   episode-26.html
   assets/
   CNAME
+  superpowers/
+    specs/
+    plans/
 tests/
-docs/superpowers/specs/
 ```
 
 The original DOCX currently at the repository root will be moved to `source/`
 during implementation. Moving the file requires explicit user approval because
 project rules treat file removal or relocation as a protected operation.
+
+The site generator owns only the generated files at the `docs/` root and
+`docs/assets/`. It must preserve authored files under `docs/superpowers/`.
 
 ## Content Model
 

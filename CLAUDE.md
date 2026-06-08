@@ -13,7 +13,9 @@ is optimized for immersive reading and is published to GitHub Pages at
 - `data/`: generated structured content and cleanup reports.
 - `templates/`: static HTML templates.
 - `assets/`: shared CSS and JavaScript source files.
-- `docs/`: generated GitHub Pages output.
+- `docs/`: GitHub Pages root; generated site files live at the root and in
+  `docs/assets/`, while `docs/superpowers/` contains authored specifications
+  and plans.
 - `tests/`: content, link, and generated HTML validation.
 - `docs/superpowers/specs/`: approved design specifications.
 
@@ -29,7 +31,10 @@ is optimized for immersive reading and is published to GitHub Pages at
 - Do not edit the source DOCX during extraction or cleanup.
 - Content corrections must be deterministic and documented in the cleanup
   report.
-- Do not manually edit files in `docs/` or generated files in `data/`.
+- Do not manually edit generated site files in the `docs/` root,
+  `docs/assets/`, or generated files in `data/`.
+- Files under `docs/superpowers/` are authored project documentation and must
+  never be removed by site generation.
 - Rebuild generated output after changing scripts, templates, or assets.
 
 ## Content Rules
