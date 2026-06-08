@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+    <w:p>
+      <w:r>
+        <w:t>Episode 1 - A Family Album</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t xml:space="preserve">   </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:color w:val="FF0000"/>
+        </w:rPr>
+        <w:t>Richard：</w:t>
+      </w:r>
+      <w:r>
+        <w:t>Hello, I'm Richard.</w:t>
+      </w:r>
+      <w:r>
+        <w:t>你好，我是理查德。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Act 1</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr/>
+  </w:body>
+</w:document>
