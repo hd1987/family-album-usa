@@ -7,12 +7,10 @@
       "source_paragraphs": [
         61
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Alexadra",
-        "after": "Alexandra",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Alexadra",
+      "after": "Alexandra",
+      "confidence": "certain"
     },
     {
       "episode": 1,
@@ -21,12 +19,10 @@
       "source_paragraphs": [
         83
       ],
-      "correction": {
-        "category": "spelling",
-        "before": "northem Greece",
-        "after": "northern Greece",
-        "confidence": "certain"
-      }
+      "category": "spelling",
+      "before": "northem Greece",
+      "after": "northern Greece",
+      "confidence": "certain"
     },
     {
       "episode": 1,
@@ -35,12 +31,10 @@
       "source_paragraphs": [
         146
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Marllyn",
-        "after": "Marilyn",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Marllyn",
+      "after": "Marilyn",
+      "confidence": "certain"
     },
     {
       "episode": 1,
@@ -49,12 +43,10 @@
       "source_paragraphs": [
         167
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Alexanra",
-        "after": "Alexandra",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Alexanra",
+      "after": "Alexandra",
+      "confidence": "certain"
     },
     {
       "episode": 2,
@@ -63,12 +55,10 @@
       "source_paragraphs": [
         214
       ],
-      "correction": {
-        "category": "spelling",
-        "before": "Excue me.",
-        "after": "Excuse me.",
-        "confidence": "certain"
-      }
+      "category": "spelling",
+      "before": "Excue me.",
+      "after": "Excuse me.",
+      "confidence": "certain"
     },
     {
       "episode": 3,
@@ -77,12 +67,10 @@
       "source_paragraphs": [
         395
       ],
-      "correction": {
-        "category": "spelling",
-        "before": "Granpa",
-        "after": "Grandpa",
-        "confidence": "certain"
-      }
+      "category": "spelling",
+      "before": "Granpa",
+      "after": "Grandpa",
+      "confidence": "certain"
     },
     {
       "episode": 4,
@@ -92,12 +80,10 @@
         553,
         554
       ],
-      "correction": {
-        "category": "spelling",
-        "before": "Jcak",
-        "after": "Jack",
-        "confidence": "certain"
-      }
+      "category": "spelling",
+      "before": "Jcak",
+      "after": "Jack",
+      "confidence": "certain"
     },
     {
       "episode": 4,
@@ -107,12 +93,10 @@
         560,
         561
       ],
-      "correction": {
-        "category": "spelling",
-        "before": "RIchard",
-        "after": "Richard",
-        "confidence": "certain"
-      }
+      "category": "spelling",
+      "before": "RIchard",
+      "after": "Richard",
+      "confidence": "certain"
     },
     {
       "episode": 4,
@@ -121,12 +105,10 @@
       "source_paragraphs": [
         590
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Jcak",
-        "after": "Jack",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Jcak",
+      "after": "Jack",
+      "confidence": "certain"
     },
     {
       "episode": 5,
@@ -135,12 +117,10 @@
       "source_paragraphs": [
         737
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Rbbie",
-        "after": "Robbie",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Rbbie",
+      "after": "Robbie",
+      "confidence": "certain"
     },
     {
       "episode": 5,
@@ -149,12 +129,10 @@
       "source_paragraphs": [
         820
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Phinip",
-        "after": "Philip",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Phinip",
+      "after": "Philip",
+      "confidence": "certain"
     },
     {
       "episode": 7,
@@ -163,12 +141,10 @@
       "source_paragraphs": [
         1073
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Alexcandra",
-        "after": "Alexandra",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Alexcandra",
+      "after": "Alexandra",
+      "confidence": "certain"
     },
     {
       "episode": 7,
@@ -177,12 +153,10 @@
       "source_paragraphs": [
         1075
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Alexcandra",
-        "after": "Alexandra",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Alexcandra",
+      "after": "Alexandra",
+      "confidence": "certain"
     },
     {
       "episode": 11,
@@ -191,12 +165,10 @@
       "source_paragraphs": [
         1699
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "RIchard",
-        "after": "Richard",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "RIchard",
+      "after": "Richard",
+      "confidence": "certain"
     },
     {
       "episode": 13,
@@ -205,12 +177,10 @@
       "source_paragraphs": [
         1955
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Granpa",
-        "after": "Grandpa",
-        "confidence": "certain"
-      }
+      "category": "speaker",
+      "before": "Granpa",
+      "after": "Grandpa",
+      "confidence": "certain"
     },
     {
       "episode": 16,
@@ -220,15 +190,11 @@
         2265,
         2266
       ],
-      "correction": {
-        "category": "speaker",
-        "before": "Granpa",
-        "after": "Grandpa",
-        "confidence": "certain"
-      }
-    }
-  ],
-  "unresolved": [
+      "category": "speaker",
+      "before": "Granpa",
+      "after": "Grandpa",
+      "confidence": "certain"
+    },
     {
       "episode": 3,
       "act": 2,
@@ -240,6 +206,41 @@
       "detail": "Inserted deterministic missing act boundary",
       "confidence": "certain"
     },
+    {
+      "episode": 7,
+      "act": null,
+      "source_paragraphs": [
+        983
+      ],
+      "category": "corrected-title",
+      "source_text": "Me's Bast Friend",
+      "detail": "Corrected title from \"Me's Bast Friend\" to \"Man's Best Friend\"",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": null,
+      "source_paragraphs": [
+        1126
+      ],
+      "category": "corrected-title",
+      "source_text": "You're Goingto Be Fine",
+      "detail": "Corrected title from \"You're Goingto Be Fine\" to \"You're Going to Be Fine\"",
+      "confidence": "certain"
+    },
+    {
+      "episode": 18,
+      "act": null,
+      "source_paragraphs": [
+        2477
+      ],
+      "category": "corrected-title",
+      "source_text": "Making Difference",
+      "detail": "Corrected title from 'Making Difference' to 'Making a Difference'",
+      "confidence": "certain"
+    }
+  ],
+  "unresolved": [
     {
       "episode": 3,
       "act": 2,

@@ -79,6 +79,33 @@ class CleanupIssueTest(unittest.TestCase):
 
 
 class NormalizeDocumentTest(unittest.TestCase):
+    def test_corrects_unambiguous_episode_titles_and_reports_them(self):
+        source = [
+            paragraph(1, "Episode 1 Placeholder占位"),
+            paragraph(2, "Act 1."),
+            paragraph(3, "Richard： One.一。"),
+            paragraph(4, "Act 2."),
+            paragraph(5, "Richard： Two.二。"),
+            paragraph(6, "Act 3."),
+            paragraph(7, "Richard： Three.三。"),
+            paragraph(8, "Episode 7 Me's Bast Friend"),
+            paragraph(9, "Act 1."),
+            paragraph(10, "Richard： One.一。"),
+            paragraph(11, "Act 2."),
+            paragraph(12, "Richard： Two.二。"),
+            paragraph(13, "Act 3."),
+            paragraph(14, "Richard： Three.三。"),
+        ]
+
+        episodes, issues = normalize_document(source)
+
+        self.assertEqual(episodes[1].english_title, "Man's Best Friend")
+        title_issue = next(
+            issue for issue in issues if issue.category == "corrected-title"
+        )
+        self.assertEqual(title_issue.confidence, "certain")
+        self.assertIn("Man's Best Friend", title_issue.detail)
+
     def test_discards_front_matter_and_applies_certain_corrections(self):
         source = [
             paragraph(1, "EPISODE 1 Contents目录"),

@@ -45,6 +45,12 @@ TEXT_CORRECTIONS = {
     "RIchard": "Richard",
 }
 
+TITLE_CORRECTIONS = {
+    "Me's Bast Friend": "Man's Best Friend",
+    "You're Goingto Be Fine": "You're Going to Be Fine",
+    "Making Difference": "Making a Difference",
+}
+
 ACT_BOUNDARY_OVERRIDES = {
     (3, 427): 2,
 }
@@ -403,9 +409,28 @@ def normalize_document(
     for paragraph in paragraphs[_content_start(paragraphs) :]:
         if EPISODE_PATTERN.match(paragraph.text.strip()):
             number, english_title, chinese_title = _split_title(paragraph.text)
+            corrected_title = TITLE_CORRECTIONS.get(
+                english_title,
+                english_title,
+            )
+            if corrected_title != english_title:
+                issues.append(
+                    CleanupIssue(
+                        episode=number,
+                        act=None,
+                        source_paragraphs=(paragraph.number,),
+                        category="corrected-title",
+                        source_text=english_title,
+                        detail=(
+                            f"Corrected title from {english_title!r} "
+                            f"to {corrected_title!r}"
+                        ),
+                        confidence="certain",
+                    )
+                )
             current_episode = Episode(
                 number=number,
-                english_title=english_title,
+                english_title=corrected_title,
                 chinese_title=chinese_title,
                 acts=[],
             )

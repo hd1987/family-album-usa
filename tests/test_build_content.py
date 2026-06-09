@@ -46,6 +46,13 @@ class BuildContentTest(unittest.TestCase):
         self.assertTrue(
             any(
                 item["category"] == "inserted-act-boundary"
+                for item in report["corrections"]
+            )
+        )
+        self.assertFalse(
+            any(
+                item.get("confidence") == "certain"
+                and item.get("category") != "missing-chinese"
                 for item in report["unresolved"]
             )
         )

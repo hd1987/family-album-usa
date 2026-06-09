@@ -36,12 +36,34 @@ def _corrections(episodes: list[Episode]) -> list[dict[str, object]]:
             "act": act.number,
             "speaker": line.speaker,
             "source_paragraphs": list(line.source_paragraphs),
-            "correction": correction.to_dict(),
+            **correction.to_dict(),
         }
         for episode in episodes
         for act in episode.acts
         for line in act.lines
         for correction in line.corrections
+    ]
+
+
+def _applied_issues(
+    issues: list[CleanupIssue],
+) -> list[dict[str, object]]:
+    return [
+        issue.to_dict()
+        for issue in issues
+        if issue.confidence == "certain"
+        and issue.category != "missing-chinese"
+    ]
+
+
+def _unresolved_issues(
+    issues: list[CleanupIssue],
+) -> list[dict[str, object]]:
+    return [
+        issue.to_dict()
+        for issue in issues
+        if issue.confidence != "certain"
+        or issue.category == "missing-chinese"
     ]
 
 
@@ -68,8 +90,11 @@ def build_content(
         _write_json(
             output_dir / "cleanup-report.json",
             {
-                "corrections": _corrections(episodes),
-                "unresolved": [issue.to_dict() for issue in issues],
+                "corrections": [
+                    *_corrections(episodes),
+                    *_applied_issues(issues),
+                ],
+                "unresolved": _unresolved_issues(issues),
             },
         )
 

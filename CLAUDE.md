@@ -63,7 +63,16 @@ Before considering a change complete:
 3. Validate generated internal links and required HTML structure.
 4. Check representative mobile and desktop pages in a browser.
 
-Document exact commands in the implementation plan once the toolchain exists.
+Run:
+
+```bash
+python3 -m scripts.build_content \
+  "source/走遍美国中英文对照.docx" \
+  --output-dir data
+python3 -m scripts.build_site data/episodes.json --output-dir docs
+python3 -m unittest discover -s tests -v
+node tests/test_reader_js.mjs
+```
 
 ## Git
 
