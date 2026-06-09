@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《走遍美国》第 {{EPISODE_NUMBER}} 集中英文对照剧本">
+  <title>{{PAGE_TITLE}} · 走遍美国</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="module" src="assets/reader.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">走遍美国</a>
+    <button
+      class="chinese-toggle"
+      type="button"
+      data-chinese-toggle
+      aria-pressed="false"
+    >隐藏中文</button>
+  </header>
+  <main class="episode-reader">
+    <header class="episode-heading">
+      <p class="eyebrow">Episode {{EPISODE_NUMBER}}</p>
+      <h1>{{ENGLISH_TITLE}}</h1>
+      <p class="chinese-title" data-chinese-text>{{CHINESE_TITLE}}</p>
+      <nav class="act-navigation" aria-label="幕导航">{{ACT_LINKS}}</nav>
+    </header>
+    {{ACT_SECTIONS}}
+  </main>
+  <footer class="episode-navigation" aria-label="剧集导航">
+    {{PREVIOUS_LINK}}
+    {{NEXT_LINK}}
+  </footer>
+</body>
+</html>

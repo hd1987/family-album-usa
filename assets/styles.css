@@ -1,0 +1,311 @@
+:root {
+  color-scheme: light;
+  --paper: #f4eee2;
+  --paper-raised: #fffaf1;
+  --ink: #29231e;
+  --muted: #6f655b;
+  --accent: #91442f;
+  --accent-dark: #713221;
+  --rule: #d8cdbd;
+  --reading-width: 72rem;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.75rem;
+  padding: 0.5rem clamp(1rem, 4vw, 3rem);
+  background: rgb(255 250 241 / 94%);
+  border-bottom: 1px solid var(--rule);
+  backdrop-filter: blur(12px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+
+.directory,
+.episode-reader {
+  width: min(calc(100% - 2rem), var(--reading-width));
+  margin-inline: auto;
+  padding-block: clamp(2rem, 6vw, 5rem);
+}
+
+.directory h1,
+.episode-heading h1 {
+  max-width: 18ch;
+  margin: 0.3rem 0;
+  font-size: clamp(2.2rem, 7vw, 4.8rem);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+}
+
+.lede,
+.chinese-title {
+  max-width: 42rem;
+  margin: 0.5rem 0 2rem;
+  color: var(--muted);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    system-ui, sans-serif;
+}
+
+.eyebrow,
+.speaker,
+.language-label,
+.episode-number {
+  color: var(--accent);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.episode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+}
+
+.episode-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 9.5rem;
+  padding: 1.25rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.episode-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.episode-card strong {
+  margin: auto 0 0.35rem;
+  font-size: 1.15rem;
+  line-height: 1.25;
+}
+
+.episode-card > span:last-child {
+  color: var(--muted);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    system-ui, sans-serif;
+}
+
+.chinese-toggle {
+  min-height: 2.75rem;
+  padding: 0.55rem 0.9rem;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  font: 700 0.9rem/1 ui-sans-serif, system-ui, sans-serif;
+}
+
+.chinese-toggle:hover {
+  background: var(--accent-dark);
+}
+
+.episode-heading {
+  margin-bottom: clamp(3rem, 8vw, 6rem);
+}
+
+.act-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.act-navigation a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.act {
+  scroll-margin-top: 5rem;
+  margin-bottom: clamp(4rem, 10vw, 8rem);
+}
+
+.act > h2 {
+  margin: 0 0 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--ink);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.dialogue-line {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(1rem, 4vw, 3rem);
+  padding-block: 1.15rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.speaker,
+.language-label,
+.dialogue-text {
+  margin: 0;
+}
+
+.dialogue-text {
+  max-width: 42ch;
+  font-size: clamp(1rem, 1.7vw, 1.14rem);
+}
+
+.chinese-column {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    system-ui, sans-serif;
+}
+
+.language-label {
+  color: var(--muted);
+}
+
+[data-chinese-hidden="true"] [data-chinese-text] {
+  display: none;
+}
+
+[data-chinese-hidden="true"] .dialogue-line {
+  grid-template-columns: minmax(0, 42rem);
+}
+
+.episode-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(calc(100% - 2rem), var(--reading-width));
+  margin-inline: auto;
+  padding: 0 0 4rem;
+}
+
+.episode-navigation a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--accent);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+}
+
+.next-episode {
+  margin-left: auto;
+  text-align: right;
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    align-items: center;
+  }
+
+  .directory,
+  .episode-reader {
+    width: min(calc(100% - 1.25rem), var(--reading-width));
+  }
+
+  .dialogue-line {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .dialogue-text {
+    max-width: none;
+  }
+
+  .episode-navigation {
+    flex-direction: column;
+    width: min(calc(100% - 1.25rem), var(--reading-width));
+  }
+
+  .next-episode {
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .episode-card {
+    transition: none;
+  }
+}
+
+@media print {
+  .site-header,
+  .episode-navigation,
+  .act-navigation {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+
+  .episode-reader {
+    width: 100%;
+    padding: 0;
+  }
+}
