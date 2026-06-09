@@ -94,7 +94,6 @@ a {
 
 .eyebrow,
 .speaker,
-.language-label,
 .episode-number {
   color: var(--accent);
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -203,7 +202,6 @@ a {
 }
 
 .speaker,
-.language-label,
 .dialogue-text {
   margin: 0;
 }
@@ -218,16 +216,8 @@ a {
     system-ui, sans-serif;
 }
 
-.language-label {
-  color: var(--muted);
-}
-
 [data-chinese-hidden="true"] [data-chinese-text] {
-  display: none;
-}
-
-[data-chinese-hidden="true"] .dialogue-line {
-  grid-template-columns: minmax(0, 42rem);
+  visibility: hidden;
 }
 
 .episode-navigation {

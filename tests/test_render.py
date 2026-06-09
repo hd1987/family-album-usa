@@ -43,6 +43,7 @@ class RenderTest(unittest.TestCase):
         self.assertIn("A &lt;book&gt; &amp; &quot;album&quot;.", html)
         self.assertIn("一本摄影集。", html)
         self.assertIn("data-chinese-text", html)
+        self.assertNotIn('<p class="language-label">中文</p>', html)
         self.assertNotIn('class="previous-episode"', html)
         self.assertNotIn("{{", html)
 
@@ -76,6 +77,11 @@ class RenderTest(unittest.TestCase):
         self.assertIn("grid-template-columns: 1fr", css)
         self.assertIn(
             '[data-chinese-hidden="true"] [data-chinese-text]',
+            css,
+        )
+        self.assertIn("visibility: hidden", css)
+        self.assertNotIn(
+            '[data-chinese-hidden="true"] .dialogue-line',
             css,
         )
         self.assertIn(":focus-visible", css)

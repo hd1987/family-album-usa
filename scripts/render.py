@@ -25,7 +25,6 @@ def _render_line(line: DialogueLine) -> str:
         f'<p class="dialogue-text">{escape(line.english)}</p>'
         "</div>"
         '<div class="chinese-column" data-chinese-text>'
-        '<p class="language-label">中文</p>'
         f'<p class="dialogue-text">{chinese}</p>'
         "</div>"
         "</article>"
