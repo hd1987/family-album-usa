@@ -1,0 +1,959 @@
+{
+  "corrections": [
+    {
+      "episode": 1,
+      "act": 1,
+      "speaker": "Alexandra",
+      "source_paragraphs": [
+        61
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Alexadra",
+        "after": "Alexandra",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 1,
+      "act": 1,
+      "speaker": "Alexandra",
+      "source_paragraphs": [
+        83
+      ],
+      "correction": {
+        "category": "spelling",
+        "before": "northem Greece",
+        "after": "northern Greece",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 1,
+      "act": 3,
+      "speaker": "Marilyn",
+      "source_paragraphs": [
+        146
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Marllyn",
+        "after": "Marilyn",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 1,
+      "act": 3,
+      "speaker": "Alexandra",
+      "source_paragraphs": [
+        167
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Alexanra",
+        "after": "Alexandra",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 2,
+      "act": 1,
+      "speaker": "Harry",
+      "source_paragraphs": [
+        214
+      ],
+      "correction": {
+        "category": "spelling",
+        "before": "Excue me.",
+        "after": "Excuse me.",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 3,
+      "act": 1,
+      "speaker": "Robbie",
+      "source_paragraphs": [
+        395
+      ],
+      "correction": {
+        "category": "spelling",
+        "before": "Granpa",
+        "after": "Grandpa",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 4,
+      "act": 1,
+      "speaker": "Marilyn",
+      "source_paragraphs": [
+        553,
+        554
+      ],
+      "correction": {
+        "category": "spelling",
+        "before": "Jcak",
+        "after": "Jack",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 4,
+      "act": 1,
+      "speaker": "Richard",
+      "source_paragraphs": [
+        560,
+        561
+      ],
+      "correction": {
+        "category": "spelling",
+        "before": "RIchard",
+        "after": "Richard",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 4,
+      "act": 2,
+      "speaker": "Jack",
+      "source_paragraphs": [
+        590
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Jcak",
+        "after": "Jack",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 5,
+      "act": 2,
+      "speaker": "Robbie",
+      "source_paragraphs": [
+        737
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Rbbie",
+        "after": "Robbie",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 5,
+      "act": 3,
+      "speaker": "Philip",
+      "source_paragraphs": [
+        820
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Phinip",
+        "after": "Philip",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 7,
+      "act": 3,
+      "speaker": "Alexandra",
+      "source_paragraphs": [
+        1073
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Alexcandra",
+        "after": "Alexandra",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 7,
+      "act": 3,
+      "speaker": "Alexandra",
+      "source_paragraphs": [
+        1075
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Alexcandra",
+        "after": "Alexandra",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 11,
+      "act": 3,
+      "speaker": "Richard",
+      "source_paragraphs": [
+        1699
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "RIchard",
+        "after": "Richard",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 13,
+      "act": 3,
+      "speaker": "Grandpa",
+      "source_paragraphs": [
+        1955
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Granpa",
+        "after": "Grandpa",
+        "confidence": "certain"
+      }
+    },
+    {
+      "episode": 16,
+      "act": 1,
+      "speaker": "Grandpa",
+      "source_paragraphs": [
+        2265,
+        2266
+      ],
+      "correction": {
+        "category": "speaker",
+        "before": "Granpa",
+        "after": "Grandpa",
+        "confidence": "certain"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "episode": 3,
+      "act": 2,
+      "source_paragraphs": [
+        427
+      ],
+      "category": "inserted-act-boundary",
+      "source_text": "Elsa： Excuse me .Is this seat taken?对不起，请问这个座位有人吗？",
+      "detail": "Inserted deterministic missing act boundary",
+      "confidence": "certain"
+    },
+    {
+      "episode": 3,
+      "act": 2,
+      "source_paragraphs": [
+        440
+      ],
+      "category": "suspected-typo",
+      "source_text": "yuo from in Florida?你从佛罗里达什么地方来？",
+      "detail": "Preserved because the intended correction is uncertain",
+      "confidence": "uncertain"
+    },
+    {
+      "episode": 1,
+      "act": 1,
+      "source_paragraphs": [
+        55
+      ],
+      "category": "missing-chinese",
+      "source_text": "Gerald.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 1,
+      "act": 1,
+      "source_paragraphs": [
+        89
+      ],
+      "category": "missing-chinese",
+      "source_text": "Alexandra.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 1,
+      "act": 3,
+      "source_paragraphs": [
+        140
+      ],
+      "category": "missing-chinese",
+      "source_text": "Robbie!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 1,
+      "act": 3,
+      "source_paragraphs": [
+        157
+      ],
+      "category": "missing-chinese",
+      "source_text": "Alexandra!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 2,
+      "act": 2,
+      "source_paragraphs": [
+        288
+      ],
+      "category": "missing-chinese",
+      "source_text": "Michelle.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 2,
+      "act": 3,
+      "source_paragraphs": [
+        324
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 2,
+      "act": 3,
+      "source_paragraphs": [
+        359
+      ],
+      "category": "missing-chinese",
+      "source_text": "Yes?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 3,
+      "act": 1,
+      "source_paragraphs": [
+        392
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi, honey.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 3,
+      "act": 1,
+      "source_paragraphs": [
+        415
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 4,
+      "act": 1,
+      "source_paragraphs": [
+        534
+      ],
+      "category": "missing-chinese",
+      "source_text": "So?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 4,
+      "act": 2,
+      "source_paragraphs": [
+        590
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 4,
+      "act": 3,
+      "source_paragraphs": [
+        623
+      ],
+      "category": "missing-chinese",
+      "source_text": "No.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 5,
+      "act": 2,
+      "source_paragraphs": [
+        722
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 5,
+      "act": 2,
+      "source_paragraphs": [
+        724
+      ],
+      "category": "missing-chinese",
+      "source_text": "Albert.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 5,
+      "act": 3,
+      "source_paragraphs": [
+        818
+      ],
+      "category": "missing-chinese",
+      "source_text": "No.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 6,
+      "act": 1,
+      "source_paragraphs": [
+        863
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 6,
+      "act": 2,
+      "source_paragraphs": [
+        902
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 6,
+      "act": 2,
+      "source_paragraphs": [
+        913
+      ],
+      "category": "missing-chinese",
+      "source_text": "Philip!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 6,
+      "act": 3,
+      "source_paragraphs": [
+        924
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 6,
+      "act": 3,
+      "source_paragraphs": [
+        961
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 7,
+      "act": 1,
+      "source_paragraphs": [
+        995
+      ],
+      "category": "missing-chinese",
+      "source_text": "No.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 7,
+      "act": 1,
+      "source_paragraphs": [
+        1014
+      ],
+      "category": "missing-chinese",
+      "source_text": "Come on.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 7,
+      "act": 3,
+      "source_paragraphs": [
+        1115
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": 2,
+      "source_paragraphs": [
+        1183
+      ],
+      "category": "missing-chinese",
+      "source_text": "You got that part right. Yes.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": 2,
+      "source_paragraphs": [
+        1186
+      ],
+      "category": "missing-chinese",
+      "source_text": "Sounds like no.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": 2,
+      "source_paragraphs": [
+        1188
+      ],
+      "category": "missing-chinese",
+      "source_text": "Row. Row.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": 2,
+      "source_paragraphs": [
+        1189
+      ],
+      "category": "missing-chinese",
+      "source_text": "Go.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 8,
+      "act": 2,
+      "source_paragraphs": [
+        1197
+      ],
+      "category": "missing-chinese",
+      "source_text": "Seven?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 9,
+      "act": 2,
+      "source_paragraphs": [
+        1330
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 10,
+      "act": 1,
+      "source_paragraphs": [
+        1431
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 10,
+      "act": 3,
+      "source_paragraphs": [
+        1569
+      ],
+      "category": "missing-chinese",
+      "source_text": "Susan Stewart's office.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 11,
+      "act": 1,
+      "source_paragraphs": [
+        1596
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 11,
+      "act": 3,
+      "source_paragraphs": [
+        1712
+      ],
+      "category": "missing-chinese",
+      "source_text": "No.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 13,
+      "act": 2,
+      "source_paragraphs": [
+        1936
+      ],
+      "category": "missing-chinese",
+      "source_text": "Part of Grandpa's magic?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 13,
+      "act": 2,
+      "source_paragraphs": [
+        1937
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh, that's not all. It hung over Susan's crib.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2040
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2064
+      ],
+      "category": "missing-chinese",
+      "source_text": "Chest-c-h-e-s-t.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2066
+      ],
+      "category": "missing-chinese",
+      "source_text": "Creep-c-r-e-e-p.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2068
+      ],
+      "category": "missing-chinese",
+      "source_text": "Sheet -s-h-e-e-t-sheet.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2070
+      ],
+      "category": "missing-chinese",
+      "source_text": "Cheese-c-h-e-e-s-e.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 2,
+      "source_paragraphs": [
+        2074
+      ],
+      "category": "missing-chinese",
+      "source_text": "Michelle!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 14,
+      "act": 3,
+      "source_paragraphs": [
+        2092
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 15,
+      "act": 1,
+      "source_paragraphs": [
+        2133
+      ],
+      "category": "missing-chinese",
+      "source_text": "Uh-uh.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 15,
+      "act": 2,
+      "source_paragraphs": [
+        2190
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 16,
+      "act": 3,
+      "source_paragraphs": [
+        2328
+      ],
+      "category": "missing-chinese",
+      "source_text": "He's so funny. Always full of surprises, even fifty years later.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 16,
+      "act": 3,
+      "source_paragraphs": [
+        2354
+      ],
+      "category": "missing-chinese",
+      "source_text": "No.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 17,
+      "act": 1,
+      "source_paragraphs": [
+        2401
+      ],
+      "category": "missing-chinese",
+      "source_text": "Mr. Stewart, I just spoke to Mr.Carlson. He would like to see you. But the only time he's available this week is tomorrow morning at ten 0'clock.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 18,
+      "act": 1,
+      "source_paragraphs": [
+        2482
+      ],
+      "category": "missing-chinese",
+      "source_text": "Who's Carter Boswell?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 19,
+      "act": 3,
+      "source_paragraphs": [
+        2731
+      ],
+      "category": "missing-chinese",
+      "source_text": "Philip...Ellen.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 20,
+      "act": 1,
+      "source_paragraphs": [
+        2760
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 21,
+      "act": 1,
+      "source_paragraphs": [
+        2897
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 21,
+      "act": 1,
+      "source_paragraphs": [
+        2910
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 21,
+      "act": 1,
+      "source_paragraphs": [
+        2925
+      ],
+      "category": "missing-chinese",
+      "source_text": "Los Angeles? That's a big decision.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 23,
+      "act": 2,
+      "source_paragraphs": [
+        3285
+      ],
+      "category": "missing-chinese",
+      "source_text": "OK.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 24,
+      "act": 3,
+      "source_paragraphs": [
+        3473
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi! What happened?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 24,
+      "act": 3,
+      "source_paragraphs": [
+        3492
+      ],
+      "category": "missing-chinese",
+      "source_text": "All right! Let's have some music!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 24,
+      "act": 3,
+      "source_paragraphs": [
+        3494
+      ],
+      "category": "missing-chinese",
+      "source_text": "Mr.Stewart...",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 25,
+      "act": 3,
+      "source_paragraphs": [
+        3622
+      ],
+      "category": "missing-chinese",
+      "source_text": "Oh!",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 1,
+      "source_paragraphs": [
+        3689
+      ],
+      "category": "missing-chinese",
+      "source_text": "Mm-hmm, hmm, uh-huh.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 2,
+      "source_paragraphs": [
+        3740
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 2,
+      "source_paragraphs": [
+        3747
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 2,
+      "source_paragraphs": [
+        3747
+      ],
+      "category": "missing-chinese",
+      "source_text": "Hi.",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 2,
+      "source_paragraphs": [
+        3757
+      ],
+      "category": "missing-chinese",
+      "source_text": "Harvey?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    },
+    {
+      "episode": 26,
+      "act": 2,
+      "source_paragraphs": [
+        3757
+      ],
+      "category": "missing-chinese",
+      "source_text": "Yes?",
+      "detail": "No Chinese translation was found",
+      "confidence": "certain"
+    }
+  ]
+}
