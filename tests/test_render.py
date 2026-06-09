@@ -80,6 +80,9 @@ class RenderTest(unittest.TestCase):
             css,
         )
         self.assertIn("visibility: hidden", css)
+        self.assertIn("font-size: 16px", css)
+        self.assertIn("padding-top: 1.254rem", css)
+        self.assertIn("padding-top: 0", css)
         self.assertNotIn(
             '[data-chinese-hidden="true"] .dialogue-line',
             css,

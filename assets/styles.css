@@ -212,8 +212,13 @@ a {
 }
 
 .chinese-column {
+  padding-top: 1.254rem;
   font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     system-ui, sans-serif;
+}
+
+.chinese-column .dialogue-text {
+  font-size: 16px;
 }
 
 [data-chinese-hidden="true"] [data-chinese-text] {
@@ -260,6 +265,10 @@ a {
 
   .dialogue-text {
     max-width: none;
+  }
+
+  .chinese-column {
+    padding-top: 0;
   }
 
   .episode-navigation {
